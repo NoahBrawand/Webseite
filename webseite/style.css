@@ -1,0 +1,106 @@
+header {
+  background-color: #ffb380;
+  height: 90px;
+  text-align: center;
+}
+
+.b1 {
+  font-size: 24px;
+  margin-top: 25px;
+  background-color: antiquewhite;
+}
+
+.b2 {
+  font-size: 60px;
+  background-color: #ffb380;
+  margin-top: 110px;
+  border: none;
+}
+
+.home {
+  font-size: 70px;
+}
+
+.b2:hover {
+  background-color: antiquewhite;
+}
+
+body {
+  margin: 0;
+  text-align: center;
+  font-family: "Lato", sans-serif;
+  background-color: antiquewhite;
+  margin-left: 300px;
+  margin-right: 300px;
+}
+.fam {
+  text-align: center;
+}
+
+h1 {
+  color: #000033;
+}
+
+h3 {
+  color: #000033;
+}
+
+.bilder {
+  margin-top: 5px;
+}
+
+html {
+  background-image: url(./hintergrund.jpg);
+}
+
+.sidebar {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #ffb380;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidebar a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: black;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidebar a:hover {
+  color: antiquewhite;
+}
+
+.sidebar .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+.openbtn {
+  font-size: 20px;
+  cursor: pointer;
+  background-color: antiquewhite;
+  color: #ffb380;
+  padding: 10px 15px;
+  border: none;
+  margin-top: 25px;
+}
+
+.openbtn:hover {
+  background-color: white;
+}
+
+.sidebar a {
+  font-size: 18px;
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Bilder</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div id="main">
+        <button class="openbtn" onclick="openNav()">☰ Menu</button>
+      </div>
+    </header>
+    <div id="mySidebar" class="sidebar">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+      <a href="./zweiteseite.html">Mein Alltag</a>
+      <a href="./index.html">Über mich</a>
+      <a href="./home.html">Home</a>
+    </div>
+
+    <script>
+      function openNav() {
+        document.getElementById("mySidebar").style.width = "295px";
+      }
+
+      function closeNav() {
+        document.getElementById("mySidebar").style.width = "0";
+      }
+    </script>
+    <div class="bilder"></div>
+    <img src="piano.jpg" width="400px" height="240px" />
+    <img src="fussball.jpg" width="400px" height="240px" />
+    <img src="programieren.jpg" width="400px" height="240px" />
+    <img src="zeichnen.jpg" width="400px" height="240px" />
+    <img src="./bs.jpg" height="240" width="400" />
+    <img src="./fn.jpg" height="240" width="400" />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+  </body>
+</html>
